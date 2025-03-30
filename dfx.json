@@ -1,7 +1,11 @@
 {
   "canisters": {
-    "hello_backend": {
-      "main": "src/hello_backend/main.mo",
+    "erc20": {
+      "main": "src/erc20/main.mo",
+      "type": "motoko"
+    },
+    "erc1155": {
+      "main": "src/erc1155/main.mo",
       "type": "motoko"
     },
     "hello_frontend": {
